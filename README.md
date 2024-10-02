@@ -1,0 +1,1 @@
+# plugins-stock-exporter-for-woocommerce
