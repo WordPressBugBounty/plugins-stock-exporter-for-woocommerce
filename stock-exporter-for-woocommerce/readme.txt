@@ -2,9 +2,9 @@
 Contributors: webdados, ptwooplugins
 Tags: woocommerce, ecommerce, e-commerce, stock, webdados
 Requires at least: 5.4
-Tested up to: 6.4
+Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.3
+Stable tag: 1.4
 
 Export a simple CSV file report with the current WooCommerce products stock.
 
@@ -23,9 +23,11 @@ The file is UTF-16, comma-separated and the values are enclosed in double quotes
 
 Already know our other WooCommerce (premium) plugins?
 
+* [Simple Custom Fields for WooCommerce Blocks Checkout](https://ptwooplugins.com/product/simple-custom-fields-for-woocommerce-blocks-checkout/) - Add custom fields to the new WooCommerce Block-based Checkout
+* [Simple WooCommerce Order Approval](https://ptwooplugins.com/product/simple-woocommerce-order-approval/) - The hassle-free solution for WooCommerce order approval before payment
 * [Shop as Client for WooCommerce](https://ptwooplugins.com/product/shop-as-client-for-woocommerce-pro-add-on/) - Quickly create orders on behalf of your customers
 * [Taxonomy/Term and Role based Discounts for WooCommerce](https://ptwooplugins.com/product/taxonomy-term-and-role-based-discounts-for-woocommerce-pro-add-on/) - Easily create bulk discount rules for products based on any taxonomy terms (built-in or custom)
-* [Simple WooCommerce Order Approval](https://ptwooplugins.com/product/simple-woocommerce-order-approval/) - The hassle-free solution for WooCommerce orders approval before payment
+* [DPD / SEUR / Geopost Pickup and Lockers network for WooCommerce](https://ptwooplugins.com/product/dpd-seur-geopost-pickup-and-lockers-network-for-woocommerce/) - Deliver your WooCommerce orders on the DPD and SEUR Pickup network of Parcelshops and Lockers in 21 European countries
 
 == Installation ==
 
@@ -62,13 +64,18 @@ This is a free plugin. It’s our way of giving back to the wonderful WordPress 
 
 There’s a support tab on the top of this page, where you can ask the community for help. We’ll try to keep an eye on the forums but we cannot promise to answer support tickets.
 
-If you reach us by email or any other direct contact means, we’ll assume you are in need of urgent, premium, and of course, paid-for support.
+If you reach us by email or any other direct contact means, we’ll assume you need, premium, and of course, paid-for support.
 
 = Where do I report security vulnerabilities found in this plugin? =  
  
 You can report any security bugs found in the source code of this plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/stock-exporter-for-woocommerce). The Patchstack team will assist you with verification, CVE assignment and take care of notifying the developers of this plugin.
 
 == Changelog ==
+
+= 1.4 - 2024-10-16 =
+* [FIX] Load text domain at the right time to avoid PHP notices on WordPress 6.7 and above
+* [DEV] Deprecated: Creation of dynamic property in PHP 8.3
+* [DEV] Tested with 6.7-beta2-59198 and WooCommerce 9.4.0-beta.2
 
 = 1.3 - 2022-12-12 =
 * New filters to to manipulate the output: `wse_output_header` and `wse_output_line`
