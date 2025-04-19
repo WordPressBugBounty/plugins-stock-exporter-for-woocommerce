@@ -1,10 +1,12 @@
 === Stock Exporter for WooCommerce ===
-Contributors: webdados, ptwooplugins
+Contributors: nakedcatplugins, webdados
 Tags: woocommerce, ecommerce, e-commerce, stock, webdados
-Requires at least: 5.4
-Tested up to: 6.7
-Requires PHP: 7.0
-Stable tag: 1.4
+Requires at least: 5.8
+Tested up to: 6.8
+Requires PHP: 7.2
+Stable tag: 1.5
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Export a simple CSV file report with the current WooCommerce products stock.
 
@@ -23,11 +25,13 @@ The file is UTF-16, comma-separated and the values are enclosed in double quotes
 
 Already know our other WooCommerce (premium) plugins?
 
-* [Simple Custom Fields for WooCommerce Blocks Checkout](https://ptwooplugins.com/product/simple-custom-fields-for-woocommerce-blocks-checkout/) - Add custom fields to the new WooCommerce Block-based Checkout
-* [Simple WooCommerce Order Approval](https://ptwooplugins.com/product/simple-woocommerce-order-approval/) - The hassle-free solution for WooCommerce order approval before payment
-* [Shop as Client for WooCommerce](https://ptwooplugins.com/product/shop-as-client-for-woocommerce-pro-add-on/) - Quickly create orders on behalf of your customers
-* [Taxonomy/Term and Role based Discounts for WooCommerce](https://ptwooplugins.com/product/taxonomy-term-and-role-based-discounts-for-woocommerce-pro-add-on/) - Easily create bulk discount rules for products based on any taxonomy terms (built-in or custom)
-* [DPD / SEUR / Geopost Pickup and Lockers network for WooCommerce](https://ptwooplugins.com/product/dpd-seur-geopost-pickup-and-lockers-network-for-woocommerce/) - Deliver your WooCommerce orders on the DPD and SEUR Pickup network of Parcelshops and Lockers in 21 European countries
+* [Advanced Coupon Restrictions for WooCommerce](https://nakedcatplugins.com/product/advanced-coupon-restrictions-for-woocommerce/) - Create coupons for any Product Taxonomy, User details, and Order destination.
+* [Simple Checkout Fields Manager for WooCommerce](https://nakedcatplugins.com/product/simple-custom-fields-for-woocommerce-blocks-checkout/) - Add custom fields and manage (remove, make required or optional) core fields on the new WooCommerce Block-based Checkout
+* [Simple WooCommerce Order Approval](https://nakedcatplugins.com/product/simple-woocommerce-order-approval/) - The hassle-free solution for WooCommerce order approval before payment
+* [Shop as Client for WooCommerce](https://nakedcatplugins.com/product/shop-as-client-for-woocommerce-pro-add-on/) - Quickly create orders on behalf of your customers
+* [Taxonomy/Term and Role based Discounts for WooCommerce](https://nakedcatplugins.com/product/taxonomy-term-and-role-based-discounts-for-woocommerce-pro-add-on/) - Easily create bulk discount rules for products based on any taxonomy terms (built-in or custom)
+* [DPD / SEUR / Geopost Pickup and Lockers network for WooCommerce](https://nakedcatplugins.com/product/dpd-seur-geopost-pickup-and-lockers-network-for-woocommerce/) - Deliver your WooCommerce orders on the DPD and SEUR Pickup network of Parcelshops and Lockers in 21 European countries
+* [Auto Cancel WooCommerce On-hold Orders](https://nakedcatplugins.com/product/auto-cancel-woocommerce-on-hold-orders/) - Automatically cancel WooCommerce “On-hold” orders after a determined period of time.
 
 == Installation ==
 
@@ -71,6 +75,11 @@ If you reach us by email or any other direct contact means, we’ll assume you n
 You can report any security bugs found in the source code of this plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/stock-exporter-for-woocommerce). The Patchstack team will assist you with verification, CVE assignment and take care of notifying the developers of this plugin.
 
 == Changelog ==
+
+= 1.5 - 2024-05-19 =
+* [DEV] Deprecated: Creation of dynamic property in PHP 8.3
+* [DEV] Requires PHP 7.2, WordPress 5.8, and WooCommerce 7.1
+* [DEV] Tested with WordPress 6.8, and WooCommerce 9.8.1
 
 = 1.4 - 2024-10-16 =
 * [FIX] Load text domain at the right time to avoid PHP notices on WordPress 6.7 and above

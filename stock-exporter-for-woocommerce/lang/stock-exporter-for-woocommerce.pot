@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Stock Exporter for WooCommerce\n"
-"POT-Creation-Date: 2023-04-12 15:51+0100\n"
+"POT-Creation-Date: 2025-04-19 16:53+0100\n"
 "PO-Revision-Date: 2016-05-11 16:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,156 +10,139 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: woocommerce-stock-exporter.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: webdados_invoicexpress_nag/webdados_invoicexpress_nag.php:27
-msgid "Are you already issuing automatic invoices on your WooCommerce store?"
-msgstr ""
-
-#: webdados_invoicexpress_nag/webdados_invoicexpress_nag.php:32
-#, php-format
-msgid ""
-"If not, get to know our new plugin: %1$sInvoicing with InvoiceXpress for "
-"WooCommerce%2$s"
-msgstr ""
-
-#: webdados_invoicexpress_nag/webdados_invoicexpress_nag.php:44
-#, php-format
-msgid "Use the coupon %1$swebdados%2$s for 10%% discount!"
-msgstr ""
-
-#: woocommerce-stock-exporter.php:91
+#: woocommerce-stock-exporter.php:95
 msgid "ID"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:96
+#: woocommerce-stock-exporter.php:100
 msgid "SKU"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:101
+#: woocommerce-stock-exporter.php:105
 msgid "Image"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:106
+#: woocommerce-stock-exporter.php:110
 msgid "Product type"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:111
+#: woocommerce-stock-exporter.php:115
 msgid "Product"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:116
+#: woocommerce-stock-exporter.php:120
 msgid "Categories"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:121
+#: woocommerce-stock-exporter.php:125
 msgid "Regular price"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:126
+#: woocommerce-stock-exporter.php:130
 msgid "Price"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:131
+#: woocommerce-stock-exporter.php:135
 msgid "Custom fields (comma separated)"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:136
+#: woocommerce-stock-exporter.php:140
 msgid "Stock"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:155 woocommerce-stock-exporter.php:204
-#: woocommerce-stock-exporter.php:863
+#: woocommerce-stock-exporter.php:159 woocommerce-stock-exporter.php:208
+#: woocommerce-stock-exporter.php:868
 msgctxt "admin page title"
 msgid "Stock Exporter for WooCommerce"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:155
+#: woocommerce-stock-exporter.php:159
 msgctxt "admin menu item"
 msgid "Stock Exporter"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:166
+#: woocommerce-stock-exporter.php:170
 msgid "All products"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:170
+#: woocommerce-stock-exporter.php:174
 msgid "Products with managed stock"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:176
+#: woocommerce-stock-exporter.php:180
 msgid "CSV file"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:180
+#: woocommerce-stock-exporter.php:184
 msgid "HTML table on screen"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:184
+#: woocommerce-stock-exporter.php:188
 msgid "HTML table on new window"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:207
+#: woocommerce-stock-exporter.php:211
 msgid ""
 "Click the button below o generate a WooCommerce stock report, in CSV, of all "
 "the products on this website where stock is managed."
 msgstr ""
 
-#: woocommerce-stock-exporter.php:212
+#: woocommerce-stock-exporter.php:216
 msgid ""
 "WPML users: You can export the report on a different language by changing it "
 "on this page top bar."
 msgstr ""
 
-#: woocommerce-stock-exporter.php:220
+#: woocommerce-stock-exporter.php:224
 msgid "Products to return"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:236
+#: woocommerce-stock-exporter.php:240
 msgid "Exclude products"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:238
+#: woocommerce-stock-exporter.php:242
 msgid "By stock"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:248
+#: woocommerce-stock-exporter.php:252
 msgid "By meta key / value"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:250
+#: woocommerce-stock-exporter.php:254
 msgid "meta key"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:267
+#: woocommerce-stock-exporter.php:271
 msgid "meta value"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:271
+#: woocommerce-stock-exporter.php:275
 msgid "Fields"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:314
+#: woocommerce-stock-exporter.php:318
 msgid "Output"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:346
+#: woocommerce-stock-exporter.php:350
 msgid "Export WooCommerce Stock"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:485 woocommerce-stock-exporter.php:487
+#: woocommerce-stock-exporter.php:489 woocommerce-stock-exporter.php:491
 msgid "not managed"
 msgstr ""
 
-#: woocommerce-stock-exporter.php:803
+#: woocommerce-stock-exporter.php:808
 msgid "products"
 msgstr ""
 
@@ -172,9 +155,9 @@ msgid "Simple stock report CSV exporter for WooCommerce"
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "PT Woo Plugins (by Webdados)"
+msgid "Naked Cat Plugins (by Webdados)"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://ptwooplugins.com"
+msgid "https://nakedcatplugins.com"
 msgstr ""

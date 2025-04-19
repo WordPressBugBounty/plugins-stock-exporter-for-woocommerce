@@ -1,16 +1,18 @@
 <?php
 /**
- * Plugin Name: Stock Exporter for WooCommerce
- * Description: Simple stock report CSV exporter for WooCommerce
- * Version: 1.4
- * Author: PT Woo Plugins (by Webdados)
- * Author URI: https://ptwooplugins.com
- * Text Domain: stock-exporter-for-woocommerce
- * Requires at least: 5.6
- * Requires PHP: 7.0
- * WC requires at least: 5.0
- * WC tested up to: 9.4
- * Requires Plugins: woocommerce
+ * Plugin Name:          Stock Exporter for WooCommerce
+ * Description:          Simple stock report CSV exporter for WooCommerce
+ * Version:              1.5
+ * Author:               Naked Cat Plugins (by Webdados)
+ * Author URI:           https://nakedcatplugins.com
+ * Text Domain:          stock-exporter-for-woocommerce
+ * Requires at least:    5.8
+ * Tested up to:         6.8
+ * Requires PHP:         7.2
+ * WC requires at least: 7.1
+ * WC tested up to:      9.8
+ * Requires Plugins:     woocommerce
+ * License:              GPLv3
  */
 
 /* Partially WooCommerce CRUD ready - Products are still fetched from the database using WP_Query for filtering and performance reasons */
@@ -24,17 +26,20 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 add_action( 'init', 'wc_stock_reporter_init', 1 );
 function wc_stock_reporter_init() {
-	if ( class_exists( 'WooCommerce' ) && version_compare( WC_VERSION, '3.0.0', '>=' ) ) {
+	if ( class_exists( 'WooCommerce' ) && version_compare( WC_VERSION, '7.1', '>=' ) ) {
 
 		class WC_Stock_Reporter {
 
-			public $version            = '1.3';
+			public $version            = '1.5';
 			public $exclude_from_count = 0;
 			public $sort_field         = '';
 			public $sep                = '|';
 			public $sep_replace        = '_';
 			public $defaults;
 			public $export_fields_options;
+			public $show_products;
+			public $output_type;
+			public $screen_output;
 
 			/**
 			 * Init the class
